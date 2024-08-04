@@ -1,0 +1,80 @@
+header{
+    position: fixed;
+    z-index: 1;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: whitesmoke;
+    text-shadow: 5px 3px 10px black;
+    
+    font-family: cursive;
+    
+}
+.kprlogo{
+    position: fixed;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
+main{
+    
+    
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.holder{
+    border: 5px solid whitesmoke;
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h2{
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px  black;
+    /* height: 50px; */
+    
+}
+.holder h1{
+    cursor: pointer;
+    color: whitesmoke;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.generate{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: large;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 20px;
+}
+.generate:hover{
+    background-color: rgb(0, 183, 255);
+    color: black;
+}
+.disp-block{
+    display: block;
+}
+.disp-none{
+    display: none;
+}
